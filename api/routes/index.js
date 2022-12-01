@@ -4,7 +4,7 @@ var router = express.Router();
 const { MongoClient } = require("mongodb");
 
 const url =
-  "mongodb+srv://<user>:<password>@cluster0.akv9o8h.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://martoo:LAST6@cluster0.akv9o8h.mongodb.net/?retryWrites=true&w=majority";
 
 async function fetchQuestion(client, res) {
   const result = await client
